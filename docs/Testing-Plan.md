@@ -1,4 +1,42 @@
-# Prepare Security Testing
+# Prepare Release Testing
+
+## Overview
+Release testing is the final verification performed before publishing the GOBDI application to production and the Google Play Store.
+
+## Objectives
+- Verify all planned features are complete.
+- Ensure no critical bugs remain.
+- Confirm the application is stable for release.
+- Validate the production build.
+
+## Pre-Release Checklist
+- All unit tests passed.
+- All integration tests passed.
+- System testing completed.
+- User Acceptance Testing (UAT) approved.
+- Performance testing completed.
+- Security testing completed.
+- Documentation updated.
+- Application version updated.
+- Release notes prepared.
+
+## Release Validation
+- Install the release APK.
+- Verify user registration and login.
+- Request and complete a ride.
+- Verify GPS and maps.
+- Verify notifications.
+- Verify payment flow.
+- Check application stability.
+
+## Success Criteria
+- No critical or major issues.
+- All core features work correctly.
+- Release build is approved.
+- Application is ready for deployment.
+
+## Expected Outcome
+The GOBDI application is fully tested and ready for public release.# Prepare Security Testing
 
 ## Overview
 Security testing verifies that the GOBDI application protects user data, prevents unauthorized access, and complies with security best practices.
