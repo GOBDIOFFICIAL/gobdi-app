@@ -1,4 +1,41 @@
-# Prepare Performance Testing
+# Prepare Security Testing
+
+## Overview
+Security testing verifies that the GOBDI application protects user data, prevents unauthorized access, and complies with security best practices.
+
+## Objectives
+- Protect user accounts and personal data.
+- Identify security vulnerabilities.
+- Prevent unauthorized access.
+- Ensure secure communication between the app and backend.
+
+## Test Scope
+- User authentication
+- Password security
+- Role-based access control
+- API security
+- Data encryption
+- Secure file uploads
+- Session management
+- Input validation
+- Error handling
+
+## Test Scenarios
+- Attempt login with invalid credentials.
+- Test password reset functionality.
+- Verify access permissions for passengers, drivers, and administrators.
+- Test API authentication and authorization.
+- Validate protection against common attacks (e.g. SQL injection and cross-site scripting where applicable).
+- Ensure sensitive data is encrypted in transit.
+
+## Success Criteria
+- No critical security vulnerabilities.
+- User data remains protected.
+- Access controls work correctly.
+- Secure communication is verified.
+
+## Expected Outcome
+The GOBDI application meets security requirements and is ready for production deployment.# Prepare Performance Testing
 
 ## Overview
 Performance testing evaluates the speed, responsiveness, stability, and scalability of the GOBDI application under different workloads.
